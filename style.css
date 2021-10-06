@@ -1,46 +1,39 @@
-body {
+*{
   margin: 0;
   padding: 0;
 }
 
-.logo{
-  margin: 0;
-  padding: 0;  
-  background-color: black;
-}
-
-.links ul{
-  background-color: black;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  text-align: center;
-
-
-}
-
-
-.links li{
+header{
+  background: black;
   display: inline-flex;
+  width: 100%;
 }
 
-.links a {
-text-decoration: none;
-color: white;
-padding: 10px 20px;
-font-size: 20px;
-text-transform: uppercase;
-font-weight: bold;
-text-align: center;
-display: flex;
+div.logo{
+  display: flex;
 }
 
-.links a:hover {
-  background-color: rgb(79, 79, 79);
-  border-radius: 10px;
-
+header nav.menu-nav ul{
+  display: flex;
+  width: 60%;
+  justify-content: center;
+  position: absolute;
+  margin-top: 30px;
 }
 
-li.nav-item{
+.nav-item{
   text-align: center;
+  list-style: none;
+  text-transform: none;
+  margin: 15px 20px;
+}
+
+li.nav-item a{
+  text-decoration: none;
+}
+li.nav-item a:hover{
+  background: gray;
+  padding: 7px 15px;
+  border-radius: 10px;
+  transition-duration: 2s;
 }
