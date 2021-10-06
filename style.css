@@ -35,5 +35,9 @@ li.nav-item a:hover{
   background: gray;
   padding: 7px 15px;
   border-radius: 10px;
-  transition-duration: 2s;
+  transition-duration: 250ms;
+}
+
+li.nav-item a:not(hover){
+transition-duration: 250ms;
 }
