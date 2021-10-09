@@ -39,7 +39,7 @@ a.nav-item:not(hover){
 transition-duration: 250ms;
 }
 
-/* Bio */
+/* home */
 
 .main-home{
   display: flex ;
@@ -49,6 +49,47 @@ transition-duration: 250ms;
 }
 
 main .main-home h1{
+  background: red;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+
+main .container{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  border: solid red;
+  height: 200px;
+}
+
+p.b1{
+  width: 40%;
+  text-align: center;
+  border: solid greenyellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+p.b2{
+  width: 40%;
+  text-align: center;
+  border: solid blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Bio */
+
+.main-bio{
+  display: flex ;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+main .main-bio h1{
   background: red;
   justify-content: center;
   text-align: center;
