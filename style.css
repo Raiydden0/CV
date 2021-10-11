@@ -58,23 +58,44 @@ main .main-home h1{
 main .container{
   width: 100%;
   display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
   justify-content: space-around;
   border: solid red;
   height: 200px;
 }
 
-p.b1{
-  width: 40%;
+.main-home img.photo{
+  width: 120px;
+  height: 150px;
+  text-align: center;
+  border: solid rgb(255, 234, 47);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.main-home p.b1{
+  size: auto;
   text-align: center;
   border: solid greenyellow;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-p.b2{
-  width: 40%;
+.main-home p.b2{
+  size: auto;
   text-align: center;
   border: solid blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-home p.b3{
+  size: auto;
+  text-align: center;
+  border: solid rgb(255, 0, 191);
   display: flex;
   justify-content: center;
   align-items: center;
